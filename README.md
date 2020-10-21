@@ -1,2 +1,2 @@
 # floodfill-js
-Reapresentação visual do algoritmo Flood fill.
+Representação visual do algoritmo Flood fill.
