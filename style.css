@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(0deg, #334d50, #cbcaa5);
+}
+
+header {
+    padding: 5rem 1rem 7rem 1rem;
+    background: linear-gradient(0deg, #00416A, #E4E5E6);
+    border: 1px solid black;
+}
+
+main {
+    padding-top:4rem;
+    background: white;
+}
+
+input {
+    width: 3rem;
+    height: 2rem;
+    text-align:center;
+    border: 1px solid black;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 0px rgba(65, 105, 255, 0.75);
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0px;
+	border-radius: 6px;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+	border-radius: 6px;
+}
+
+.div-botoes {
+    width: 22rem;
+    margin: 0 auto;
+}
+.round {
+   border-radius: 6px;
+}
